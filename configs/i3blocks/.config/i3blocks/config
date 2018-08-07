@@ -1,0 +1,115 @@
+# List of valid properties:
+#
+# align color command full_text instance
+# interval label min_width name
+# separator separator_block_width short_text
+# signal urgent
+
+####################
+#===== Global ======
+####################
+
+full_text=|
+command=~/.scripts/i3blocks/$BLOCK_NAME
+separator_block_width=20
+markup=none
+separator=false
+align=center
+
+####################
+#====== Audio ======
+####################
+
+[mediaplayer]
+label= 
+instance=spotify
+interval=3
+signal=9
+
+[separator]
+color=#FF0000
+
+[volume-pulseaudio]
+command=~/.scripts/i3blocks/$BLOCK_NAME -a
+interval=once
+signal=1
+
+[separator]
+color=#FF0000
+
+####################
+#===== Storage =====
+####################
+
+# [memory]
+# interval=10
+
+# [memory]
+# label=swap
+# instance=swap
+# interval=10
+
+# [disk]
+# label=disk
+# interval=30
+
+# [separator]
+# color=#FF0000
+
+####################
+#===== Network =====
+####################
+
+[iface]
+color=#00FF00
+interval=10
+
+[wifi]
+label=
+instance=wlp58s0
+interval=10
+
+#[bandwidth]
+##instance=eth0
+#interval=3
+# min_width=10K10K
+
+[separator]
+color=#FF0000
+
+####################
+#======= CPU =======
+####################
+
+[cpu_usage]
+label=
+interval=10
+min_width=: 10.00%
+
+[separator]
+color=#FF0000
+
+# [temperature]
+# label=tmp
+# interval=10
+
+[battery]
+interval=30
+
+# [separator]
+# color=#FF0000
+
+# [key_layout]
+# label=Layout
+# interval=30
+
+[separator]
+color=#FF0000
+
+####################
+#====== Time =======
+####################
+
+[time]
+command=date '+%Y-%m-%d %H:%M'
+interval=5

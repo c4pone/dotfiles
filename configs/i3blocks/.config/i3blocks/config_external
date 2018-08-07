@@ -1,0 +1,44 @@
+# List of valid properties:
+#
+# align color command full_text instance
+# interval label min_width name
+# separator separator_block_width short_text
+# signal urgent
+
+####################
+#===== Global ======
+####################
+
+full_text=|
+command=~/.scripts/i3blocks/$BLOCK_NAME
+separator_block_width=20
+markup=none
+separator=false
+align=center
+
+####################
+#===== Storage =====
+####################
+
+[memory]
+interval=10
+
+[memory]
+label=swap
+instance=swap
+interval=10
+
+[disk]
+label=disk
+interval=30
+
+[separator]
+color=#FF0000
+
+####################
+#====== Time =======
+####################
+
+[time]
+command=date '+%Y-%m-%d %H:%M'
+interval=5

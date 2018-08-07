@@ -1,0 +1,6 @@
+ansible
+neovim
+mistune
+psutil
+setproctitle
+python-language-server[all]

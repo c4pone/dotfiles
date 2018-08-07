@@ -1,0 +1,19 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+Xft.dpi: 220
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background: #1b1b1b
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+
+rofi.font: Monospace 33
