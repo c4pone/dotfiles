@@ -42,3 +42,4 @@ tlp
 tcpdump
 gnupg
 pasystray
+unclutter
