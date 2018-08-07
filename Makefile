@@ -6,6 +6,7 @@ install-packages:
 
 install-binaries:
 	sh ./scripts/install-fzf.sh
+	sh ./scripts/install-docker-compose.sh
 
 setup-languages:
 	sh ./scripts/setup-python.sh
