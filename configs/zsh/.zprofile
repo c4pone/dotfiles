@@ -83,3 +83,7 @@ autoload -U colors; colors
 RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# Java
+source "$HOME/.sdkman/bin/sdkman-init.sh"

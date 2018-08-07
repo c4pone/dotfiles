@@ -15,4 +15,4 @@ then
 fi
 
 pyenv global 2.7.13
-pip install -r python-packages.txt
+pip install -r packages-python.txt
