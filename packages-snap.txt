@@ -1,3 +1,6 @@
-spotify 
 docker
+insomnia
 intellij-idea-community --classic
+pats-boostnote --edge 
+spotify 
+tusk
