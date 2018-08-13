@@ -39,6 +39,7 @@ path=(
   /usr/local/{bin,sbin}
   $HOME/bin
   $HOME/.pyenv/bin
+  $HOME/.dropbox-dist
   $GOPATH/bin
   $path
 )

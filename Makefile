@@ -7,6 +7,7 @@ install-packages:
 install-binaries:
 	sh ./scripts/install-fzf.sh
 	sh ./scripts/install-docker-compose.sh
+	sh ./scripts/install-dropbox.sh
 
 setup-languages:
 	sh ./scripts/setup-python.sh
