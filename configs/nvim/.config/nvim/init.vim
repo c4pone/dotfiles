@@ -118,6 +118,11 @@ set fileformats=unix,dos,mac
 set showcmd
 set shell=/bin/zsh
 
+"" Spell checking
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd FileType gitcommit setlocal spell
+set complete+=kspell
+
 "" Copy/Paste/Cut
 if has('unnamedplus')
   set clipboard=unnamed,unnamedplus
